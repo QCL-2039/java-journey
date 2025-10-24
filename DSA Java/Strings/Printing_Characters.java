@@ -7,12 +7,17 @@ public class Printing_Characters {
         System.out.println("Enter your string:");
         String s = cin.nextLine();
         String s2 = s;
-
-        for (int i = 0; i < s2.length(); i++)
-
-        {
-            System.out.println(s2.charAt(i));
+        String s3 = "Sohel Rana";
+        if (s2.equals(s3)) {
+            System.out.println("Ok");
+        } else {
+            System.out.println("Not");
         }
+        // for (int i = 0; i < s2.length(); i++)
+
+        // {
+        // System.out.println(s2.charAt(i));
+        // }
         cin.close();
     }
 }

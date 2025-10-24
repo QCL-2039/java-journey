@@ -9,11 +9,11 @@ public class Total_Digit_Num {
         int num = cin.nextInt();
         String str = Integer.toString(num);
         System.out.println("Total Digit in your number:" + str.length());
-        // int sum = 0;
-        // for (int i = 0; i < str.length(); i++) {
-        // sum += str.charAt(i);
-        // }
-        // System.out.println(sum);
+        int sum = 0;
+        for (int i = 0; i < str.length(); i++) {
+            sum += str.charAt(i);
+        }
+        System.out.println(sum);
         cin.close();
     }
 }
